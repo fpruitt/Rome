@@ -54,6 +54,7 @@ coverage.xml
 local_settings.py
 .idea/
 .venv/
+.docker_env
 
 # Flask stuff:
 instance/
