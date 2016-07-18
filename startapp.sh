@@ -1,3 +1,6 @@
+echo "=========== Checking For Unmigrated Changes ==========="
+python rome/manage.py makemigrations
+
 echo "=========== Running Migrations ==========="
 python rome/manage.py migrate
 
