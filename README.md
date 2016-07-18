@@ -1,10 +1,8 @@
 ## Setup
-### Install & Create Virtualenv
-`pip install virtualenv`
-`virtualenv .venv`
-`source .venv/bin/activate`
-
-### Install Requirements
-`pip install -r requirements.txt`
-
-### 
+#### Install Docker for your host platform.
+#### Install Docker-Compose. 
+* Can be done pip with `pip install docker-compose`
+#### Build the docker containers
+`docker-compose build`
+#### Start the docker containers
+`docker-compose start`
